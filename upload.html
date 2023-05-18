@@ -1,0 +1,9 @@
+<?php
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+  $file = $_FILES['file'];
+  $fileName = $file['name'];
+  $fileTmpPath = $file['tmp_name'];
+
+  // Perform further processing or storage operations with the uploaded file
+}
+?>
